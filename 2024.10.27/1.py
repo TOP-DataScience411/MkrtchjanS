@@ -8,4 +8,9 @@ age = datetime.datetime.now().year - bd_year
 
 print(surname, name + ',', age)
 
+
 #Мкртчян Светлана, 21
+
+
+# ИТОГ: отлично — 4/4
+
