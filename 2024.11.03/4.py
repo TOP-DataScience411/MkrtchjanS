@@ -1,4 +1,5 @@
 def prime_n(num):
+    """Функция prime_n проверяет, является ли переданное число простым."""
     if num < 2:
         return False 
     for i in range(2, int(num**0.5) + 1):
@@ -7,6 +8,7 @@ def prime_n(num):
     return True  
     
 def count_n(n):
+    """Функция count_n считает количество простых чисел с заданным количеством цифр n."""
     if n < 1:
         return 0  
     
