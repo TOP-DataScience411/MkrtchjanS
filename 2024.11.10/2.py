@@ -1,4 +1,5 @@
 def taxi_cost(distance: int, wait_time: int = 0) -> int | None:
+    """Функция вычисляет стоимость поездки на такси на основе расстояния и времени ожидания."""
     if distance < 0 or wait_time < 0:
         return None
     
