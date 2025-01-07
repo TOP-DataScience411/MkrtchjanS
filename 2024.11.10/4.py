@@ -1,4 +1,5 @@
 def countable_nouns(num: int, forms: tuple[str, str, str]) -> str:
+    """Функция возвращает правильную форму существительного в зависимости от числа num."""
     if len(forms) != 3:
         raise ValueError("Кортеж forms должен содержать ровно три элемента.")
 
