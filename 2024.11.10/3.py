@@ -1,4 +1,5 @@
 def numbers_strip(numbers: list[float], n: int = 1, *, copy: bool = False) -> list[float]:
+    """Функция удаляет n наименьших и n наибольших элементов из списка чисел."""
     if n < 0 or n > len(numbers) // 2:
         raise ValueError("Параметр n должно быть неотрицательным и быть меньше или равен половине списка.")
 
