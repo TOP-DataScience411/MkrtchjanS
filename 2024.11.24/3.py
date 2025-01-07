@@ -1,3 +1,4 @@
+"""Считает количество листьев в дереве, представленном вложенными списками"""
 def tree_leaves(branches):
     count = 0
     for branch in branches:
