@@ -2,7 +2,7 @@ import csv
 from pathlib import Path
 
 class CountableNouns:
-    db_path = Path("words.csv")
+    db_path = Path(r'C:\Users\Svetlana\Desktop\MkrtchjanS\2024.12.14\words.csv')
     words = {} 
 
     # Чтение базы существительных из файла
